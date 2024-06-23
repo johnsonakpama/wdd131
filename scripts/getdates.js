@@ -1,3 +1,11 @@
+const msinnav = document.querySelector('.nax');
+const hambutton = document.querySelector('#menu');
+
+hambutton.addEventListener('click', () => {
+	mainnav.classList.toggle('show');
+	hambutton.classList.toggle('show');
+});
+
 const full = document.querySelector("#full");
 const year = document.querySelector("#year");
 const month = document.querySelector("#month");
