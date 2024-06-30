@@ -1,0 +1,60 @@
+body {
+	font-family: Roboto, helvetica, sans-serif;
+}
+
+div.hero {
+    border: 1px solid #bbb;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+h1 {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 1rem 0;
+}
+
+main {
+	display: grid;
+    grid-template: 1fr 200px;
+    grid-gap: 1.5rem;
+    max-width: 100%;
+    background-color: #0d1b2a;
+}
+
+
+section {
+        display: block;
+        margin: 1rem;
+        margin-top: 0;
+}
+
+
+h2 {
+	color: #fff;
+	grid-column: 1 / 3;
+    text-align: left;
+}
+
+.data li {
+    color: #fff;
+    text-align: left;
+    margin: 1rem;
+    list-style: none;
+}
+
+.weather {
+    margin: 1rem;
+    color: #fff;
+}
+
+footer {
+    background-color: #0d1b2a;
+    color: #eee;
+    padding: 2rem;
+    text-align: center;
+}
