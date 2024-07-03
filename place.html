@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment: Country page</title>
+    <meta name="description" content="WDD 131-Dynamic Web Fundamentals, Johnson Majiyebo Akpama, Assignment: Home Page">
+    <meta name="author" content="Johnson M. Akpama">
     <link href="styles/place.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Nigeria</h1>
+        <h1 class="logo">Nigeria</h1>
     </header>
     <main>
         <div class="hero">    
@@ -16,10 +18,9 @@
                 <source srcset="images/hero-page-large.webp" media="(min-width: 1000px)">
                 <source srcset="images/hero-page-medium(1).webp" media="(min-width: 500px)">
                 <img src="images/hero-page-small.webp" alt="A beautiful edific of A ba nigeria temple" width="500" height="250">
-            </picture>        
-        </div>
-            <h2>Data</h2>
-            <section class="data">
+            </picture> 
+            <div class="data">
+                <h2>Data</h2>
                     <ul>
                         <li>Area: 923.770 sq km</li>
                         <li>Population: 200,000,000</li>
@@ -30,16 +31,17 @@
                         <li>Calling Code: +234</li>
                         <li>Internet TLD: mg</li>
                     </ul>
-        </section>
-        <section class="weather">
-            <h2>weather</h2>
-            <img src="images/weather-02-512.webp" alt="icon of weather">
+                </div>
+                <div class="weather">
+                <h2>weather</h2>
+                <img src="images/weather-02-512.webp" alt="icon of weather">
                 <p>Temperature: <span class="temperature"></span>&#8451;</p>
                 <p>Condition: <span class="description"></span></p>
                 <p class="weather-type"></p>
                 <p>wind-speed: <span class="wind-speed"></span> km/h</p>
                 <p>wind-chill: <span class="wind-chill"></span></p>
-        </section>
+            </div>      
+        </div>
     <footer>
         <p><span>&copy;<span>2024💥Johnson Majiyebo Akpama💥Nigeria</span></p>
         <div class="lastmodified">LastModified:
