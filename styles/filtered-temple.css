@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ddd;
+}
+
+/* mobile *********************************/
+
+.logo {
+    background-color: #0d1b2a;
+    display: flex;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+
+}
+
+header
+main {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 h3 {
+    font-size: 2rem;
+}
+
+#menu{
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem 75rem;
+    background-color: black;
+    color: #000;
+
+}
+
+#menu ::before {
+    content: "💖";
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    background-color: #415a77;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav ul  {
+    list-style-type: none;
+    display: flex;
+    order: 2;
+}
+
+
+.nav ul a {
+    display: flex;
+    text-align: left;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.nav a:hover, .active {
+    font-weight: 700;
+    text-decoration: underline double;
+    background-color: transparent;
+    color: #fff;
+    padding: 2rem;
+}
+
+.show li {
+    display: block;
+}
+
+#hambutton .show::before {
+    content: "❌";
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    gap: 40px;
+}
+
+img {
+    width: 100%;
+    height: 650px;
+    box-shadow: 0 0 30px #777;
+    border: 1px solid #333;
+}
+
+ .card p {
+    font-size: medium;
+    text-align: center;
+}
+
+footer{
+    background-color: #0d1b2a;
+    color: #eee;
+    padding: 2rem;
+    text-align: center;
+}
