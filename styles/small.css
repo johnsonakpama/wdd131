@@ -105,6 +105,14 @@ input :checked ~ label {
     margin-top: 0.35rem;
 }
 
+.wf1 input :required {
+    border-right: solid 8px blue;
+}
+
+.wf1 input :required :valid {
+    border-bottom: solid 8px green;
+}
+
 #visits {
 	color: #445ba9;
 	font-weight: bolder;
