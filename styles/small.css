@@ -2,6 +2,15 @@ body {
     background-color: #ddd;
 }
 
+h1 {
+    background-color: #444;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #fff;
+
+}
+
 .wf1 fieldset{
     margin: 2rem 0;
     border: 1px solid #ddd;
@@ -121,6 +130,8 @@ input :checked ~ label {
 
 footer {
     background-color: #ddd;
+    color: #fff;
     padding: .5rem 2%;
     text-align: center;
+    background-color: #444;
 }
