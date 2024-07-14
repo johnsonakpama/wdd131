@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 Dynamic Web Fundamentals-Johnson Akpama</title>
+    <meta name="description" content="WDD 131-Dynamic Web Fundamentals, Johnson Majiyebo Akpama, Assignment: Home Page">
+    <meta name="author" content="Johnson M. Akpama">
+    <meta property="LinkedIn-id" content="https://www.linkedin.com/in/johnsonakpama/">
+    <link href="styles/forms.css" rel="stylesheet">
+</head>
+<body>
+   <main>
+    <form method="get" action="thanks.html" class="wf1">
+        <h1>Product Review</h1>
+        <fieldset>
+            <legend>Product name</legend>
+            <select name="Product name">
+                <option value="">Choose a Product &#9662;</option>
+                <option value="id: fc-1888" name="flux capacitor">Flux Capacitor</option>
+                <option value="id: fc-2050" name="power laces">Power Laces</option>
+                <option value="id: fs-1987" name="time concuits">Time Concuits</option>
+                <option value="id: ac-2000" name="low voltage reactor">Low Voltage Reactor</option>
+                <option value="id: jj-1969" name="warp equalizer">Warp Equalizer</option>
+            </select>
+            <fieldset>
+            <div class="container">
+                <div class="star-widget">
+                    <input type="radio" name="rate" id="rate-5">
+                    <label for="rate-5" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-4">
+                    <label for="rate-4" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-3">
+                    <label for="rate-3" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-2">
+                    <label for="rate-2" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-1">
+                    <label for="rate-1" class="fas fa-star"></label>
+                </div>
+            </div>
+                <fieldset>
+                <legend>Date of Installation</legend>
+                <input type="date" name="Date of installation">
+                <P>Which fearures did you find useful in the product <br>(check all that apply)</P>
+                <label><input type="checkbox" name="duration" value="yes">Duration</label>
+                <label><input type="checkbox" name="ease of use" value="yes">Ease of Use</label>
+                <label><input type="checkbox" name="performation" value="yes">Performation</label>
+                <label><input type="checkbox" name="design" value="yes">Design</label>
+                </fieldset>
+                <fieldset>
+                <legend>Written Review (Optional)</legend>
+                <label><textarea rows="5" class="input" name="product review"></textarea></label>
+                </fieldset>
+                <fieldset>
+                <legend>Your Name (Optional)</legend>
+                <label>Full Name<input type="text" id="Full name" name="fullname"></label>
+                </fieldset>
+        </fieldset>
+        <input type="submit" value="Product Review" class="submitBtn">
+    </form>
+   </main>
+   <footer>
+    <p>&copy; 2024 ❤ Johnson Akpama ❤ All Right Reserved</p>
+   </footer> 
+</body>
+</html>
